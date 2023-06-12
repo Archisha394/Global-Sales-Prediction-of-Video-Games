@@ -31,7 +31,7 @@ This dataset is split into a 80% training set and 20% testing set with fixed ran
 Here missing values are present.So we have to pre-process the data.However, the features are on different scales, so we will need to normalize them by standardscaler before training the machine learning model.
 
 ### Model
-The model used in this project is a Ridge Regressor, which is a popular machine learning algorithm used for regression.We use the Scikit-learn library in python to build the Ridge Regressor. We trained the model using the training dataset and evaluated it's performance on the test dataset.We used various evaluatin metrics such as RMSE, MSE, MAE, R2 SCORE to asses the performance of the Model.
+The model used in this project is LinearRegression, which is a popular machine learning algorithm used for regression.We use the Scikit-learn library in python to build the the model. We trained the model using the training dataset and evaluated it's performance on the test dataset.We used various evaluatin metrics such as RMSE, MSE, MAE, R2 SCORE to asses the performance of the Model.
 
 ### Data Source
 The source of the dataset is from Kaggle, the dataset company.
@@ -40,5 +40,5 @@ https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings
 
 ### Conclusion
 Based on the analysis of the Global Video Games Sales
-Prediction dataset using the Ridge Regressor, we were able to achieve a RMSE of 0.0056 and Score of 99.38% . By comparing the actual value and predicted value ,we can easily understands that there is less error between them. So we can conclude that Ridge Regressor is a Best regression model for the data And using Ridge we can predict the Global Sales very accurately and with very less error.
+Prediction dataset using the Linear Regression, we were able to achieve a RMSE of 0.0068 and Score of 99.93% . By comparing the actual value and predicted value ,we can easily understands that there is less error between them. So we can conclude Linear Regression is a Best regression model for the data And using it we can predict the Global Sales very accurately and with very less error.
 Overall, this project demonstrates the application of machine learning algorithms to real-world problems and how they can be used to make data-driven decisions. 
